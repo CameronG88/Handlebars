@@ -19,8 +19,11 @@
   - (https://github.com/CameronG88/Handlebars_Burger)
 
  ## Screenshots_and_GIFs 
-  - ![Short vid of deployed burger project](https://)
-  - ![Screenshot of deployed burger project](./public/assets/images/)  
+  - ![Short vid of deployed burger project](./public/assets/images/GrabbaBurger.gif)
+  - ![Screenshot of deployed burger project](./public/assets/images/home-burger.png)  
+  - ![Screenshot of typing new burgerinto input](./public/assets/images/new-burger.png)  
+  - ![Screenshot of new burger being added](./public/assets/images/burger-added.png)  
+  - ![Screenshot of db after burger added](./public/assets/images/burger-db.png)  
   
   ## Usage
   Easy to use online burger eating app, type in the burger you want to order, eat it and then clear your plate...unless you want another one!
