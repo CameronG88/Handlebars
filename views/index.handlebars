@@ -1,0 +1,45 @@
+<div class="row">
+
+
+  <div class="col-sm boxes rounded-sm m-2 p-1">
+    <h2 class="text-center">Current Orders</h2>
+
+    <ul>
+      {{#each burgers}}
+      {{#unless devoured}}
+      {{> burgers/burger-block devoured=false}}
+      {{/unless}}
+      {{/each}}
+    </ul>
+  </div>
+
+
+  <div class="col-sm boxes rounded-sm m-2 p-1">
+    <h2 class="text-center">Devoured</h2>
+
+    <ul>
+      {{#each burgers}}
+      {{#if devoured}}
+      {{> burgers/burger-block devoured=true}}
+      {{/if}}
+      {{/each}}
+    </ul>
+  </div>
+
+</div>
+
+
+<div class="row text-center">
+  <div class="col-sm m-2 p-2 rounded-sm boxes">
+    <h2>Add Burger</h2>
+    <form class="create-form">
+
+      <div class="form-group">
+        <label>Burger Name</label>
+        <input type="text" name="name" id="burgerName">
+      </div>
+
+      <button type="submit">Add Burger</button>
+    </form>
+  </div>
+</div>

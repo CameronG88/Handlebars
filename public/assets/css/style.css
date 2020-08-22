@@ -1,0 +1,16 @@
+body {
+    font-size: 24px;
+    background: url("../images/bigburger.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+.boxes {
+    background-color: rgba(128, 2, 2, 0.8);
+    color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
